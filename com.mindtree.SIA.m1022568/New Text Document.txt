@@ -1,0 +1,5 @@
+set projectLocation=D:\Selenium\SeleniumInternalAssessment 
+cd %projectLocation% 
+set classpath=%projectLocation%\bin;%projectLocation%\libs\*
+java org.testng.TestNG %projectLocation%\XMLForValuesFromXMLFileClass.xml
+pause

@@ -1,0 +1,1 @@
+mvn test -DsuiteXmlFile=D:\Selenium\SeleniumInternalAssessment\XMLForValuesFromXMLFileClass.xml

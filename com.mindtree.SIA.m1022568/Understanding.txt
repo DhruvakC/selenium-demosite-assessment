@@ -1,0 +1,58 @@
+This project is created through Maven.
+
+In the src/test/java there are 4 packages.
+	1) com.mindtree.SIA.HelloWorld
+		This package has simple hello world project. Just to check framework is working fine.
+
+	2) simpleProjectThroughChromePackage
+		This is plain project having things hard coded.
+		It has all xpath, site name, browser name hard coded.
+		It has 4 test cases and written in single single java file.
+		I created this package to understand usage of TestNG and its parameters.
+			I understood @AfterTest, @Test, @BeforeTest
+			I understood features like dependsOnMethods, priority, enabled
+
+	3) projectThroughXMLValuesPickup
+		This package includes two files.
+		XMLForValuesFromXMLFileClass.xml and ValuesFromXMLFile.java
+		xml file has two groups LogInTestCases and RegisterTestCases
+		To understand how to run test cases in group I have disabled one group.
+		How to pass values through XML I used few parameters.
+
+	4) projectThroughConfigAndXLS
+		This package is the main package for this assignment.
+		Which has following things.
+			a) POM.xml
+			b) 4 Test cases
+				Sign-In
+				Registration
+				Flight Reservation
+				Itinerary
+			c) XmlFileToRunTestCases.xml
+			d) It has src/main/java which has two packages
+				utilities
+				datafiles   
+
+	Will explain all of them one by one
+	a) POM.xml
+		I included dependency of org.testng, log4j, org.apache.poi for xlsx
+
+	c) XmlFileToRunTestCases.xml To run the test cases in appropriate sequence.
+		So, to run the suite. Run with this xml file.
+	
+
+	b, d ) For all the 4 test cases 
+		I have used Log 4j logging methods.
+		I have taken screenshots of each run and stored them under D:\Selenium\SeleniumInternalAssessment\Screenshots
+		I have used Config.Properties where browser name, site name, username and password are stored.
+		I have used dataProvider.xlsx which has all the values related to registration and flight booking
+		I have used locator.csv file which has all the Xpaths configured.
+
+		In the utilities package there are two files
+		GenericFunctions which has all the default methods like clicking textbox, providing values, checkbox select, radio button select etc
+		ExcelUtilities has the core logic to get the values from xlsx file.
+
+		All the four classes are inheriting GenericFunctions class.
+
+	
+ 

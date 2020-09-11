@@ -1,0 +1,28 @@
+{
+	"website" : "http://newtours.demoaut.com/",
+	"browser" : "chrome",
+	"username" : "Dhruvak1",
+	"password" : "Admin12!@",
+	
+	"registration" : 
+		{
+			"firstname" = "dhruvak",
+			"lastname" = "chokshi",
+			"phone" = "0992299097",
+			"Email" = "abc@gmail.com",
+			"address1" = "address1",
+			"address2" = "address2",
+			"state" = "Maharastra",
+			"zip" = "411057",
+			"country" = "INDIA",
+			"username" = "dhruvak",
+			"password" = "dhruvak"
+		},
+		
+	"iteration" :
+		{
+			"firstname" = "kiaara",
+			"lastname" = "Vora"
+		}
+	
+}
